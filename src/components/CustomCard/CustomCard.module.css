@@ -1,0 +1,12 @@
+
+.customCard {
+    max-width: 618px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 6px 0px 0px 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 8px 15px 0px #1414141F;
+    box-shadow: 0px 0px 4px 0px #1414141A;
+    display:flex;
+    flex-direction: column;
+}

@@ -1,0 +1,60 @@
+.customCheckbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+
+.customCheckboxInput {
+    display: none; /* Hide the default checkbox */
+}
+
+.customCheckboxBox {
+    width: 23px;
+    height: 23px;
+    border: 1px solid #CDCDCD;
+    background-color: #fff;
+    position: relative;
+    border-radius: 6px;
+    opacity: 0.6;
+}
+
+.customCheckboxBox:hover {
+    background-color: #5087F8;
+    border-color: #5087F8;
+    opacity: 1;
+
+}
+
+.customCheckboxInput:checked + .customCheckboxBox {
+    background-color: #2469F6;
+    border-color: #2469F6;
+    opacity: 1;
+
+}
+
+.customCheckboxBox::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    opacity: 0;
+    display: block;
+    width: 8px;
+    height: 16px;
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.customCheckboxInput:checked + .customCheckboxBox::after {
+    opacity: 1;
+}
+
+.customCheckboxBox:hover::after {
+    opacity: 1;
+}

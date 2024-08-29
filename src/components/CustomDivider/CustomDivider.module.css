@@ -1,0 +1,12 @@
+.customDivider {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.customDividerContainer {
+    padding: 10px 15px 10px 15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

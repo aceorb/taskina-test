@@ -1,0 +1,10 @@
+.customListSelectItem {
+    padding: 3px 15px 3px 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.customTitle{
+    margin-top: 7px;
+}
