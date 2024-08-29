@@ -1,5 +1,7 @@
 
 .customCard {
+    width:100%;
+    min-width: 240px;
     max-width: 618px;
     padding: 10px 0px 10px 0px;
     border-radius: 6px 0px 0px 0px;
